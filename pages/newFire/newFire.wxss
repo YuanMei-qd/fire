@@ -1,0 +1,30 @@
+/* .container{
+  position: relative;
+  top:-120px;
+} */
+
+.table_head{
+  width:96%;
+  margin:0 auto;
+  display: block;
+  color:#000;
+}
+
+.table_head > text{
+  display: inline-block;
+  width:20%;  
+  text-align: center; 
+}
+
+.nameSelect{
+  border:1px solid rgb(116, 115, 115);
+  width:200px;
+  display: inline-block;
+  margin:0 auto;
+}
+
+.selectForm{
+  display: block;
+  width:200px;
+  margin:10px auto;
+}

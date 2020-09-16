@@ -1,0 +1,22 @@
+<view class="page" data-weui-theme="{{theme}}">
+  <view class = "title">春秋季秸秆焚烧</view>
+  <view class = "title1">火点遥感监测系统</view>
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <button class = "mainBut" bindtap="handleTap" id = "fireMonitor"><span>火点</span><span>监测</span></button>
+    </view>
+    <view class="weui-flex__item">
+      <button class = "mainBut" bindtap="handleTap" id = "firePointVerification"><span>火点</span><span>核实</span></button>
+    </view>
+  </view>
+  <!-- <web-view src="http://139.199.98.175:8300" /> -->
+  <view class="weui-flex">
+    <view class="weui-flex__item">
+      <button class = "mainBut" bindtap="handleTap" id = "fireMonitor"><span>调查员管理</span></button>
+    </view>
+    <view class="weui-flex__item">
+      <button class = "mainBut" bindtap="handleTap" id = "fireMonitor"><span>综合</span><span>管理</span></button>
+    </view>
+  </view>
+
+</view>

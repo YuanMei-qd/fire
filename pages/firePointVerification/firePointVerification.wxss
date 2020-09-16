@@ -1,0 +1,17 @@
+@import '../../weui.wxss';
+
+.title{
+  position: absolute;
+  top:10px;
+  left:10px;
+}
+
+.container{
+  position: absolute;
+  top:20px;
+}
+
+ec-canvas {
+  width: 300px;
+  height: 300px;
+}

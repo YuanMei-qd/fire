@@ -1,0 +1,19 @@
+<view class="page" data-weui-theme="{{theme}}">
+
+  <view class="page__bd">
+    <view class="button-sp-area">
+      <a class="weui-btn weui-btn_primary">火点核实</a>
+      <view class="weui-cell weui-cell_active weui-cell_access">
+        <view class="weui-cell__bd">
+          <text style="vertical-align: middle;">新增火点</text>
+          <text class="weui-badge" style="margin-left: 5px;">8</text>
+        </view>
+        <view class="weui-cell__ft">查看</view>
+      </view>
+    </view>
+  </view>
+
+  <view class="container">
+    <ec-canvas id="mychart-dom-bar" canvas-id="mychart-bar" ec="{{ ec }}"></ec-canvas>
+  </view>
+</view>

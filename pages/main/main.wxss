@@ -1,0 +1,34 @@
+@import '../../weui.wxss';
+
+.mainBut {
+  display: block;
+  width:100px !important;
+  height:100px;
+  background-color: rgb(83, 158, 228);
+  margin-top: 20px;
+  border-radius: 50%;
+  text-align: 90px;
+  color:#fff;
+  padding-top: 25px;
+}
+
+.mainBut>span{
+  display: block;
+  margin-top: 0px;
+}
+
+.mainBut:active{
+  background-color: rgb(36, 114, 187);
+}
+
+.title{
+  font-size: 23px !important;
+  text-align: center;
+  color: rgb(36, 114, 187);
+}
+
+.title1{
+  font-size: 23px !important;
+  text-align: center;
+  color: rgb(36, 114, 187);
+}

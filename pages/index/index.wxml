@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo">
+    <!-- <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button> -->
+    <form bindsubmit="submit" catchsubmit="formSubmit">
+      <input class="weui-input" auto-focus placeholder="用户名"  name = "userName"  model:value ="{{formData.userName}}"/>
+      <input class="weui-input" auto-focus placeholder="密码" name = "password" model:value ="{{formData.password}}"/>
+      <view wx:if="{{tip.show}}" class = "tip">{{tip.data}}</view>
+      <button class = "loginButton"  form-type="submit">确定</button>
+    </form>
+ 
+  </view>
+  <!-- <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>

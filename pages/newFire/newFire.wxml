@@ -1,0 +1,24 @@
+<!--logs.wxml-->
+<view class="container">
+ <viewer class = "table_head">
+
+  <viewer class = "selectForm">
+    <input class = "nameSelect" placeholder="请输入区县名" bindinput = "inputChange"/>
+  </viewer>
+
+  <text decode="true">区&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;县</text>
+  <text>区县编码</text>
+  <text>卫星类型</text>
+  <text>火点状态</text>
+  <text>核实状态</text>
+ </viewer>
+ <viewer wx:for = "{{monitorData}}" wx:for-item = "info"  wx:key = "{{info.id}}"  class = "table_head">
+  <text decode="true">{{info.countyName}}</text>
+  <text>{{info.countyCode}}</text>
+  <text>葵花8号</text>
+  <text>伪火点</text>
+  <text>已核实</text>
+  <!-- <text>{{info.fireStatus}}</text>
+  <text>{{info.verityStatus}}</text> -->
+ </viewer>
+</view>
