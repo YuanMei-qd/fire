@@ -20,6 +20,7 @@
   padding: 0px;
   background-color: rgb(36, 51, 83);
   margin:0 auto;
+  border:1px solid #fff;
 }
 
 ec-canvas {
