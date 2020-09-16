@@ -226,10 +226,10 @@ option = {
       itemStyle: {
           normal: {
               areaColor: 'transparent',
-              borderColor: '#3fdaff',
-              borderWidth: 2,
+              borderColor: '#fff',
+              borderWidth: 1,
               shadowColor: 'rgba(63, 218, 255, 0.5)',
-              shadowBlur: 0
+              shadowBlur: 1
           },
           emphasis: {
               areaColor: '#2B91B7',

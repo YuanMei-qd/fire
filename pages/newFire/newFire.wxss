@@ -7,7 +7,9 @@
   width:96%;
   margin:0 auto;
   display: block;
-  color:#000;
+  color:#fff;
+  font-size: 12px;
+  font-weight: 100;
 }
 
 .table_head > text{
@@ -17,7 +19,7 @@
 }
 
 .nameSelect{
-  border:1px solid rgb(116, 115, 115);
+  border:1px solid rgb(255, 255, 255);
   width:200px;
   display: inline-block;
   margin:0 auto;
@@ -27,4 +29,10 @@
   display: block;
   width:200px;
   margin:10px auto;
+}
+
+.container{
+  background-color: rgb(66, 80, 111);
+  padding-top: 10px;
+  color:#fff;
 }

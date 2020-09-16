@@ -5,8 +5,8 @@
       <!-- <view class="monitorTitle">火点监测</view> -->
       <view class="weui-cell weui-cell_active weui-cell_access">
         <view class="weui-cell__bd">
-          <text style="vertical-align: middle;color:#000">共计火点数量</text>
-          <text class="weui-badge" style="margin-left: 5px;color:#000">28</text>
+          <text style="vertical-align: middle;color:#fff">累计监测火点</text>
+          <text class="weui-badge" style="margin-left: 5px;color:#fff">28</text>
         </view>
         <!-- <view class="weui-cell_ft" style="color:#fff" bindtap = "handleTap">查看</view> -->
       </view>

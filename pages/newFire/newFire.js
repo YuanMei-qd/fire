@@ -51,12 +51,12 @@ Component({
           monitorData:tem
         })
       }
-      console.log(tem)
+      // console.log(tem)
     }
   },
   lifetimes: {
     attached: function() {
-      console.log(this.data.token)
+      // console.log(this.data.token)
     },
     detached: function() {
       // 在组件实例被从页面节点树移除时执行
